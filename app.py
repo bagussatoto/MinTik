@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 from flask_ngrok import run_with_ngrok
 
-app = Flask(MinTik)
+app = Flask(_MinTik_)
 app.static_folder = 'static'
 
 import nltk
