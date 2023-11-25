@@ -11,7 +11,7 @@
         "Selamat Malam"
       ],
       "responses": [
-        "Halo, Saya adalah McDonald's Bot :). Ada yang bisa saya bantu?"
+        "Halo, Saya adalah MinTik :). Ada yang bisa saya bantu?"
       ]
     },
     {
@@ -39,42 +39,42 @@
         "nama?"
       ],
       "responses": [
-        "Namaku McDonald's Bot, salam kenal ya!",
-        "Halo, aku McDonald's Bot!",
-        "Kenalin, aku McDonald's Bot!"
+        "Namaku MinTik, salam kenal ya!",
+        "Halo, aku Mintik!",
+        "Kenalin, aku MinTik!"
       ]
     },
     {
       "tag": "pekerjaan",
       "patterns": [
-        "pekerjaan kamu apa sebagai mcdonald bot?",
+        "pekerjaan kamu apa sebagai MinTik?",
         "lu kerja apa?",
         "tugas kamu apa?",
         "tugas lo ngapain?"
       ],
       "responses": [
-        "Aku akan membantu kamu memilih menu McDonald sesuai keinginanmu. Kalau boleh tau kamu mau pesan menu yang bagaimana?",
+        "Aku akan membantu kamu memilih menu MinTik sesuai keinginanmu. Kalau boleh tau kamu mau pesan menu yang bagaimana?",
         "Aku berkerja untuk membantu kamu yang bingung memilih menu apa yang kamu mau pesan. Aku akan merekomendasikan beberapa menu sesuai keinginanmu."
       ]
     },
     {
       "tag": "tentang_mcd",
       "patterns": [
-        "mcd itu apa?",
-        "mcdonald itu apa?",
-        "emang mcdonald apa sih?",
-        "wah apa tuh mcd?",
-        "mcdonald emang apa?",
-        "mcd itu apa sih"
+        "Mintik itu apa?",
+        "MinTik itu apa?",
+        "emang MinTik apa sih?",
+        "wah apa tuh MinTik?",
+        "MinTik emang apa?",
+        "MinTik itu apa sih"
       ],
       "responses": [
-        "McDonald merupakan restoran fast food terbesar di dunia yang diawali pada tahun 1955 di California, Amerika Serikat. Dengan produk unggulan berupa Burger bernama Bigmac, McDonald hingga saat ini telah memiliki ribuan restoran yang tersebar di lebih dari 100 negara, salah satunya Indonesia. McDonald pertama kali masuk ke Indonesia pada tahun 1991 dengan membuka restoran pertamanya di Sarinah, Thamrin."
+        "Website MinTik merupakan sebuah Admin Bot untuk 
+        menjawab pertanyaan mengenai informasi produk kecantikan berbasis Netural Language processing."
       ]
     },
     {
       "tag": "category_menu",
       "patterns": [
-        "apa aja sih menu yang ada di mcd?",
         "saya ingin menu yang tersedia",
         "menu apa aja yang kamu punya?",
         "berikan saya menu yang kamu punya",
