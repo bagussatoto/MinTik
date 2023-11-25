@@ -45,19 +45,6 @@
       ]
     },
     {
-      "tag": "pekerjaan",
-      "patterns": [
-        "pekerjaan kamu apa sebagai MinTik?",
-        "lu kerja apa?",
-        "tugas kamu apa?",
-        "tugas lo ngapain?"
-      ],
-      "responses": [
-        "Aku akan membantu kamu memilih menu MinTik sesuai keinginanmu. Kalau boleh tau kamu mau pesan menu yang bagaimana?",
-        "Aku berkerja untuk membantu kamu yang bingung memilih menu apa yang kamu mau pesan. Aku akan merekomendasikan beberapa menu sesuai keinginanmu."
-      ]
-    },
-    {
       "tag": "tentang_bot",
       "patterns": [
         "Mintik itu apa?",
