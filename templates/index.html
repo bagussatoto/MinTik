@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Judul Halaman -->
+	<title>McDonald's</title>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Icon -->
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href={{ url_for('static', filename='/css/bootstrap.min.css') }} type="text/css">
+	<link rel="stylesheet" href={{ url_for('static', filename='/css/client_side.css') }}  type="text/css">
+	
+	<!-- JavaScript -->
+	<script src={{ url_for('static', filename='/js/jquery_3.6.0.min.js') }} ></script>
+	<script src={{ url_for('static', filename='/js/bootstrap_3.4.1.min.js') }} ></script>
+</head>
+
+<body id="halamanku" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#FFCC00;z-index: 0;">
+		<div class="container">
+			
+			<!-- Logo -->
+			<div class="navbar-header">
+				<img src={{ url_for('static', filename='/images/MCD_LOGO.png') }} alt="MCD Logo" 
+				width="50" height="50" align="left">
+				<a class="navbar-brand" href="#halamanku">&#160; McDonald's</a>
+			</div>
+			
+			<!-- Daftar Halaman -->
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#informasi">INFORMASI</a></li>
+					<li><a href="#anggotaKelompok">ANGGOTA KELOMPOK</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Bagian Halaman (Informasi) -->
+	<div id="informasi" class="container-fluid">
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-sm-6">
+				<!-- Deskripsi Aplikasi -->
+				<h2>McBot</h2> 
+				<h4>McDonald's Chatbot</h4><br>
+				<p style="text-align: justify;text-justify: inter-word;">
+					McDonald merupakan restoran fast food terbesar di dunia yang diawali pada tahun 1955 di California, Amerika Serikat. 
+          Aplikasi ini mampu merekomendasikan dan menjelaskan menu makanan dan mampu menjelaskan menu makanan yang terdapat di McDonald's, 
+          Tidak hanya itu McBot juga mampu memberikan informasi terkait nutrisi yang terkandung dalam menu makanan yang ada di McDonald's. 
+          Dengan adanya aplikasi ini, pengguna tidak perlu bingung dalam memilih menu makanan McDonald's. 
+				</p>
+			    <br>
+
+				<!-- Tombol Mulai -->
+				<nav id="navgo" class="navbar" style="background-color:#fff;z-index: 0;">
+					<ul class="nav nav-pills">
+						<li class="nav-item">
+							<a class="btn btn-default btn-lg" href="/chatbot" style="background-color:#DA291C">Mulai</a>
+
+						</li>
+					</ul>
+				</nav>
+
+			</div>
+			<div class="col-sm-6">
+				<br>
+				<br>
+				<!-- Gambar Deskripsi Aplikasi -->
+				<img src={{ url_for('static', filename='/images/app-display.png') }} width="500" ></img>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bagian Halaman (Anggota Kelompok) -->
+	<div id="anggotaKelompok" class="container-fluid text-center">
+		<br>
+		<h2>ANGGOTA KELOMPOK</h2>
+		<h4>Tim Deployment dan Tim NLP</h4>
+		<br>
+		<div class="row slideanim">
+			<div class="col-sm-6">
+				<img src={{ url_for('static', filename='/images/zaky.jpeg') }} alt="Foto Mahasiswa" 
+				width="150" height="150" align="top">
+				<h4>Moh Dzaky Irhab</h4>
+				<p>Universitas Narotama</p>
+			</div>
+			<div class="col-sm-6">
+				<img src={{ url_for('static', filename='/images/cumel1.png') }} alt="Foto Mahasiswa" 
+				width="150" height="150" align="top">
+				<h4>Annisa Setyaningtyas</h4>
+				<p>Universitas Brawijaya</p>
+			</div>
+		</div>
+	    <br>
+	    <div class="row slideanim">
+			<div class="col-sm-6">
+				<img src={{ url_for('static', filename='/images/zila.jpg') }} alt="Foto Mahasiswa" 
+				width="150" height="150" align="top">
+				<h4>Mujtaba Fa’akuli Zazila</h4>
+				<p>Politeknik Perkapalan Negeri Surabaya</p>
+			</div>
+			<div class="col-sm-6">
+        <br>
+				<img src={{ url_for('static', filename='/images/risma.jpg') }} alt="Foto Mahasiswa" 
+				width="150" height="150" align="top">
+        <br><br>
+				<h4>Rhizma Elliza Putri</h4>
+				<p>Universitas Pembangunan Nasional Veteran Jawa Timur</p>
+			</div>
+	    </div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="container-fluid text-center">
+		<a href="#halamanku" title="To Top">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+		<p>Orbit Future Academy <br> <a href="https://orbitfutureacademy.id/">orbitfutureacademy.id</a></p>
+	</footer>
+
+	<!-- JavaScript untuk Animasi Scroll dan Prediksi Model -->
+	<script  src={{ url_for('static', filename='/js/client_side.js') }}></script>
+
+</body>
+</html>
