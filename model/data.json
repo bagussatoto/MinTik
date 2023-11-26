@@ -42,10 +42,6 @@
       "patterns": [
         "Mintik itu apa?",
         "MinTik itu apa?",
-        "emang MinTik apa sih?",
-        "wah apa tuh MinTik?",
-        "MinTik emang apa?",
-        "MinTik itu apa sih"
       ],
       "responses": [
         "Website MinTik merupakan sebuah Admin Bot untuk 
@@ -61,7 +57,6 @@
       "responses": [
         "Produk kulit yang kami tawarkan sangat banyak sekali"
       ]
-    }
-  
+    },
     ]
   }
