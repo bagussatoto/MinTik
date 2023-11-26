@@ -4,7 +4,7 @@ from flask_ngrok import run_with_ngrok
 app = Flask(__name__)
 app.static_folder = 'static'
 
-import 
+import nltk
 nltk.download('popular')
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
