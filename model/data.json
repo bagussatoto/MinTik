@@ -5,10 +5,6 @@
       "patterns": [
         "Hai",
         "Hi",
-        "Halo",
-        "Selamat Pagi",
-        "Selamat Siang",
-        "Selamat Malam"
       ],
       "responses": [
         "Halo, Saya adalah MinTik :). Ada yang bisa saya bantu?"
@@ -19,9 +15,6 @@
       "patterns": [
         "Selamat Tinggal",
         "Dah",
-        "Semoga harimu menyenangkan",
-        "Sampai Jumpa Lagi",
-        "Ok bye"
       ],
       "responses": [
         "Sampai jumpa lagi yaa :)",
