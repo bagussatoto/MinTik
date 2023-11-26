@@ -20,7 +20,7 @@ words = pickle.load(open('model/texts.pkl','rb'))
 classes = pickle.load(open('model/labels.pkl','rb'))
 
 def clean_up_sentence(sentence):
-    # tokenize the pattern - split words into array
+    tokenize the pattern - split words into array
     sentence_words = nltk.word_tokenize(sentence)
     # stem each word - create short form for word
     sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
