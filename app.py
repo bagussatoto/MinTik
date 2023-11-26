@@ -15,7 +15,7 @@ from keras.models import load_model
 model = load_model('model/models.h5')
 import json
 import random
-intents = json.loads(open('model/data.json').read())
+intents = json.loads(open('model/').read())
 words = pickle.load(open('model/texts.pkl','rb'))
 classes = pickle.load(open('model/labels.pkl','rb'))
 
