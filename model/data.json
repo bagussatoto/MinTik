@@ -4,7 +4,7 @@
       "tag": "salam",
       "patterns": [
         "Hai",
-        "Hi",
+        "Hi"
       ],
       "responses": [
         "Halo, Saya adalah MinTik :). Ada yang bisa saya bantu?"
@@ -14,7 +14,7 @@
       "tag": "bye",
       "patterns": [
         "Selamat Tinggal",
-        "Dah",
+        "Dah"
       ],
       "responses": [
         "Sampai jumpa lagi yaa :)",
@@ -41,22 +41,21 @@
       "tag": "tentang_bot",
       "patterns": [
         "Mintik itu apa?",
-        "MinTik itu apa?",
+        "MinTik itu apa?"
       ],
       "responses": [
-        "Website MinTik merupakan sebuah Admin Bot untuk 
-        menjawab pertanyaan mengenai informasi produk kecantikan berbasis Netural Language processing."
+        "Website MinTik merupakan sebuah Admin Bot untuk menjawab pertanyaan mengenai informasi produk kecantikan berbasis Netural Language processing."
       ]
     },
     {
       "tag": "category_produk",
       "patterns": [
         "saya ingin produk untuk kulit",
-        "produk apa yang cocok untuk semua jenis kulit?",
+        "produk apa yang cocok untuk semua jenis kulit?"
       ],
       "responses": [
         "Produk kulit yang kami tawarkan sangat banyak sekali"
       ]
-    },
+    }
     ]
   }
