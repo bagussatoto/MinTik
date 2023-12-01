@@ -67,7 +67,7 @@ def getResponse(ints, intents_json):
 def getResponse(ints, intents_json):
     tag = ints[0]['intent']
     list_of_intents = intents_json['intents']
-    result = "Maaf, saya tidak mengerti pertanyaan Anda."  # Menetapkan nilai default
+    result = "Maaf, saya tidak mengerti pertanyaan kamu."  # Menetapkan nilai default
 
     for i in list_of_intents:
         if i['tag'] == tag:
