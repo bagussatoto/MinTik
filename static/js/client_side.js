@@ -50,7 +50,7 @@ $(document).ready(function(){
     setTimeout(function() {
 	  try {
 			$.ajax({
-			  url     : "./model/data.json",
+			  url     : "/api/deteksi",
 			  type    : "POST",
 			  data    : {"data" : msg},
 			  success : function(res){
