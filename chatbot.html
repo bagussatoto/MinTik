@@ -27,6 +27,7 @@
             </div>
 
             <div class="msg-text">Hai, selamat datang di MinTik! Silahkan bertanya tentang MinTik ! 😄</div>
+
           </div>
         </div>
       </main>
@@ -36,6 +37,7 @@
         <button type="submit" class="msger-send-btn">Kirim</button>
       </form>
     </section>
+    
     <!-- partial -->
     <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
     <script>
@@ -59,11 +61,10 @@
         msgerInput.value = '';
         botResponse(msgText);
       });
-
+ 
       function appendMessage(name, img, side, text) {
         //   Simple solution for small apps
         const msgHTML = 
-        <div class="msg-text">Hai 😄</div>
         `
         <div class="msg ${side}-msg">
           <div class="msg-img" style="background-image: url(${img})"></div>
