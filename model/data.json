@@ -10,8 +10,19 @@
         "Halo, Saya adalah MinTik :). Ada yang bisa saya bantu?"
       ]
     },
+    "intents": [
+      {
+        "tag": "salam",
+        "patterns": [
+          "Hai",
+          "Hi"
+        ],
+        "responses": [
+          "Halo, Saya adalah MinTik :). Ada yang bisa saya bantu?"
+        ]
+      },
     {
-      "intents": "bye",
+      "tag": "bye",
       "patterns": [
         "Selamat Tinggal",
         "Dah"
