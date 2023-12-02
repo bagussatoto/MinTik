@@ -11,7 +11,7 @@
       ]
     },
     {
-      "tag": "bye",
+      "intents": "bye",
       "patterns": [
         "Selamat Tinggal",
         "Dah"
