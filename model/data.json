@@ -1,5 +1,5 @@
 {
-  "intents": 
+  "intents": [
     {
       "tag": "salam",
       "patterns": [
@@ -8,31 +8,6 @@
       ],
       "responses": [
         "Halo, Saya adalah MinTik :). Ada yang bisa saya bantu?"
-      ]
-    },
-
-{
-    "intents": 
-      {
-        "tag": "salam",
-        "patterns": [
-          "i",
-          "h"
-        ],
-        "responses": [
-          "Halo, orang?"
-        ]
-      },
-    {
-      "tag": "bye",
-      "patterns": [
-        "Selamat Tinggal",
-        "Dah"
-      ],
-      "responses": [
-        "Sampai jumpa lagi yaa :)",
-        "Kalau kamu bingung milih menu lagi, Hubungi aku ya",
-        "Semoga harimu menyenangkan!"
       ]
     },
     {
