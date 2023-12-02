@@ -1,5 +1,5 @@
 {
-  "intents": [
+  "intents": 
     {
       "tag": "salam",
       "patterns": [
@@ -10,7 +10,9 @@
         "Halo, Saya adalah MinTik :). Ada yang bisa saya bantu?"
       ]
     },
-    "intents": [
+
+{
+    "intents": 
       {
         "tag": "salam",
         "patterns": [
